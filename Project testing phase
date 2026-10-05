@@ -1,0 +1,39 @@
+# Phase 6: Project Testing Phase
+
+## 1. Overview
+The testing phase evaluates the **LegalEase - AI-Powered Legal Document Generator** to ensure output precision, functional stability, input validation, and reliable performance across key system components.
+
+---
+
+## 2. Types of Testing Performed
+
+* **Unit Testing:** Validates individual backend API endpoints, document template rendering engines, and prompt construction modules.
+* **Integration Testing:** Verifies seamless communication between the user interface, backend server, and the AI model/LLM API.
+* **Functional Testing:** Ensures form inputs accurately translate into properly formatted legal document templates.
+* **User Interface (UI) Testing:** Assesses form field responsiveness, error handling displays, and preview screen usability.
+
+---
+
+## 3. Test Cases & Execution Summary
+
+| Test Case ID | Feature / Module | Test Scenario | Expected Result | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-01** | User Input Form | Submitting empty required fields | Displays validation error messages | **PASS** |
+| **TC-02** | AI Generator | Generating NDA template with valid inputs | Produces correctly structured document | **PASS** |
+| **TC-03** | API Integration | API timeout or rate-limiting handling | Shows friendly error notification | **PASS** |
+| **TC-04** | Export Module | Exporting generated legal document to PDF | PDF downloads with correct formatting | **PASS** |
+| **TC-05** | UI Responsive | Rendering output preview on mobile view | UI resizes without content overflow | **PASS** |
+
+---
+
+## 4. Bug Identification & Resolution
+
+* **Issue 1:** Formatting alignment shifts when exporting documents to PDF.
+  * **Fix:** Adjusted CSS print/page-break styles prior to PDF conversion.
+* **Issue 2:** API response timeout on complex template requests.
+  * **Fix:** Implemented asynchronous handling and loading state indicators on the frontend.
+
+---
+
+## 5. Conclusion
+All critical core functionalities have been tested and verified. The LegalEase generator accurately processes user parameters and delivers legal document outputs without system-level errors.
