@@ -1,0 +1,27 @@
+
+
+## 1. Overview
+This phase provides complete project documentation for **LegalEase - AI-Powered Legal Document Generator**. It covers system specifications, architectural details, installation guidelines, and user manuals for seamless deployment and maintenance.
+
+---
+
+## 2. Technical Stack Overview
+
+* **Frontend:** HTML, CSS, JavaScript / React.js
+* **Backend:** Node.js / Python (Flask/FastAPI)
+* **AI Integration:** OpenAI API / LLM Integration for document synthesis
+* **Version Control:** GitHub
+
+---
+
+## 3. Installation & Setup Guide
+
+### Prerequisites
+* Node.js (v16.0 or higher) / Python 3.9+
+* Git installed on local machine
+
+### Step-by-Step Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/your-username/LegalEase-AI-Powered-Legal-Document-generator.git](https://github.com/your-username/LegalEase-AI-Powered-Legal-Document-generator.git)
+   cd LegalEase-AI-Powered-Legal-Document-generator
